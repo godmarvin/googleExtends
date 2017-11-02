@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "aaa",
+  "version": "1.0",
+  "description": "aaa",
+  "icons": {
+    "16": "images/time_48.png",
+    "48": "images/time_64.png",
+    "128": "images/time_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/time_48.png",
+      "38": "images/time_64.png"
+    },
+    "default_title": "aaa",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "*://*.sohu.com/*"
+  ]
+}

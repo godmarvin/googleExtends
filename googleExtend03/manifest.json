@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Google在线状态",
+  "version": "1.0",
+  "description": "监视Google是否在线",
+  "icons": {
+    "16": "images/time_48.png",
+    "48": "images/time_48.png",
+    "128": "images/time_64.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/time_48.png",
+      "38": "images/time_64.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "js/status.js"
+    ]
+  },
+  "permissions": [
+    "https://www.baidu.com/"
+  ]
+}
